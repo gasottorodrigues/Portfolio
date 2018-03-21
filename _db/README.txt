@@ -1,0 +1,1 @@
+Essa pasta armazenará em um .xml o cadastro de todos itens que forem incluidos no projeto.
