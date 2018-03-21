@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@charset "UTF-8";
+
+.arquivos{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:30px;
+	justify-content:center;
+}
+
+.arquivos div{
+	margin:5px;
+	width:48%;
+	box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+}
+
+.arquivos div h2{
+	height:230px;
+	text-align:center;
+}
+
+.arquivos div h2 img{
+	padding:15px 0px;
+	width:200px;
+	height:200px;
+}
+
+.arquivos div section{
+	padding:8px;
+	font-family: 'Lora', serif;
+}
+
+.arquivos div section h3{
+	font-size:2em;
+	margin-bottom:0;
+}
+
+.arquivos div section h3 a{
+	text-decoration:none;
+	color:#555;
+	text-transform: capitalize;
+}
+
+.arquivos div section h3 a:hover{
+	text-decoration: underline;
+}
+
+.arquivos div section a{
+	text-decoration:none;
+	color:#6699ff;
+}
+
+.arquivos div section a:hover{
+	color:white;
+	text-shadow: 1px 1px #69f;
+}
+
+.arquivos div section p.data{
+	display:inline-block;
+	width:100%;
+	text-align:left;
+	color:#BBB;
+	margin-bottom:10px;
+}
+
+.arquivos section p.desc{
+	margin-bottom:10px;
+}
+
+@media(max-width: 1000px){
+	.arquivos div{
+		width:100%;
+	}
+
+	.arquivos div h3{
+		font-size:3em;
+		border-bottom:1px solid #DDD;
+	}
+}
